@@ -3,7 +3,7 @@
 <h3>ENTER YOUR NAME: Sriram Gopalan G</h3>
 <h3>ENTER YOUR REGISTER NO: 212222230149</h3>
 <h3>EX. NO: 6</h3>
-<h3>DATE</h3>
+<h3>DATE:</h3>
 <h1> <align=center> MATRIX TRANSPOSITION USING SHARED MEMORY </h3>
   Implement Matrix transposition using GPU Shared memory.</h3>
 
@@ -423,4 +423,4 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as _______________.
+Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as 0.005666 sec and 0.004625 sec.
